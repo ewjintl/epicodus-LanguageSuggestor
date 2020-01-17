@@ -14,13 +14,11 @@ $(document).ready(function() {
           $("#js").show();
         }  else if ((os === "5" && side === "1") || (side === "1" && application === "1")) {
           $("#css").show();
-        }  else if ((os === "5" && side === "1") || (side === "1" && application === "1")) {
-          
-        
-
-        else {
-            $("#again").show();
-        }
+          }  else if ((os === "5" && side === "3") || (side === "3" && application === "4")) {
+              $("#sql").show();       
+            } else {
+                $("#again").show();
+            }
 
     event.preventDefault();
     });
