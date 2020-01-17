@@ -14,21 +14,46 @@
     <p>To give you the best match, please answer the following questions:</p>
 
     <form id="questions">
-        <label for="personality">Which operating system do you prefer?</label>
-          <select id="personality">
+        <label for="os">Which operating system do you prefer?</label>
+          <select id="os">
             <option value="1">Windows</option>
             <option value="2">Mac OSX</option>
             <option value="3">Linux</option>
-            <option value="3">Mobile (Andriod/iOS)</option>
+            <option value="4">Mobile (Andriod/iOS)</option>
+          </select>
+        <br>
+        <label for="class">Choose one:</label>
+          <select id="class">
+            <option value="1">Frontend</option>
+            <option value="2">Backend</option>
+            <option value="3">Fullstack</option>
+            <option value="4">No idea?</option>
           </select>
           <br>
-          <label for="favColor">What kind of projects do you want to work on?</label>
-          <select id="favColor">
+          <label for="application">What kind of projects do you want to work on?</label>
+          <select id="application">
             <option value="1">Designing the appearance of websites</option>
             <option value="2">Making webpages interactive</option>
             <option value="3">Building apps meant for deployment in a Windows environment</option>
             <option value="4">You want to aggregate large pools of data and compare notes with existing databases</option>
           </select> 
+          <br>
+          <label for="experience">Do you have previous programming experience?</label>
+            <select id="experience">
+              <option value="1">None</option>
+              <option value="2">less than a month</option>
+              <option value="3">Less than a year</option>
+              <option value="4">Less than (3) years</option>
+              <option value="5">More than (3) years</option>
+          </select>
+          <br>
+          <label for="?">Do you know which "stack" you want to learn?</label>
+            <select id="?">
+              <option value="1">MEAN</option>
+              <option value="4">MERN</option>
+              <option value="3">LAMP</option>
+              <option value="2">What?!</option>
+          </select>
           <br>
           <br>        
           <button type="submit" class="btn btn-info">Calculate my match!</button>
