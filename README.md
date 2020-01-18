@@ -4,17 +4,17 @@
 
 #### By _**Elliot Jordan**_
 
-#### Link: _<github-pages URL>_
-
 ## Description
 
 _This webpage features:_
 
-* Several dropdown questions designed to help suggest a programming language based on users' interests.
+Several dropdown questions designed to help suggest a programming language based on users' inputs.
 
 ## Setup/Installation Requirements
 
-* _Simply navigate to my URL using your preferred web browser._
+* Clone this git reposistory to your desktop by using the following command in your terminal: $ git clone [URL]
+* Navigate to "index.html" file located inside of the newly cloned folder on your desktop and open it in your web browser.
+
 
 ## Known Bugs
 
@@ -26,10 +26,10 @@ _If anyoene experiences any issue with my site, please drop me a message at ewji
 
 ## Technologies Used
 
-_This site was rendered utilizing basic HTML and CSS._
+_This site was rendered utilizing basic HTML, CSS and Jquery._
 
 ### License
 
 *CC0-1.0, CC-BY-4.0*
 
-Copyright (c) 2016 **_Elliot Jordan_**
+Copyright (c) 2020 **_Elliot Jordan_**
