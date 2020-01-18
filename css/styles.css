@@ -18,7 +18,7 @@ body {
   background-size: cover;
   font-size: x-large;
   font-family: 'Courier New', Courier, monospace;
-  /* font-weight: bolder; */
+  padding: 10px;
  }
  .container { 
   opacity: 90%;
