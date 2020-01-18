@@ -1,11 +1,26 @@
 .btn {
   display: block;
 }
-
+.output {
+  display: none;
+}
 img {
   width: 300px;
 }
-
+.descText {
+  font-style: italic;
+}
+body {
+  background-image: url("img/background2.gif");
+  background: scroll;
+  background-size: cover;
+  /* font-size: x-large; */
+  font-family: 'Courier New', Courier, monospace;
+  /* font-weight: bolder; */
+ }
+ .container { 
+  opacity: 90%;
+}
 #c {
   display: none;
 }

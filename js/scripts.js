@@ -5,6 +5,7 @@ $(document).ready(function() {
     var application = $("select#application").val();
     var experience = $("select#experience").val();
     var stack = $("select#stack").val();
+    $("#output").show();
     console.log(os + side + application + experience + stack);
 
 
