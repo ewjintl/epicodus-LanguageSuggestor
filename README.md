@@ -8,7 +8,7 @@
 
 _This webpage features:_
 
-Several dropdown questions designed to help suggest a programming language based on users' inputs.
+Several dropdown questions designed to help suggest a programming language based on users' inputs. The result is arrived at by following branching Jquery code to narrow down a set of possible combinations to just a few.
 
 ## Setup/Installation Requirements
 
