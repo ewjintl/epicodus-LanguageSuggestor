@@ -16,6 +16,8 @@
     </div>
     <div id="questionBox" class="well">
       <form id="questions">
+        <label  for="name">Please enter your first Name:</label>
+        <input id="name" type="text"><br>
         <label for="os">Which operating system do you prefer?</label>
           <select id="os">
             <option value="1">Windows</option>
@@ -23,21 +25,21 @@
             <option value="3">Linux</option>
             <option value="4">Mobile (Andriod/iOS)</option>
             <option value="5">A combination</option>
-          </select>
+          </select><br>
         <label for="side">Choose one:</label>
           <select id="side">
             <option value="1">Frontend</option>
             <option value="2">Backend</option>
             <option value="3">Fullstack</option>
             <option value="4">No idea?</option>
-          </select>
+          </select><br>
         <label for="application">What kind of projects do you want to work on?</label>
           <select id="application">
             <option value="1">Designing the appearance of websites</option>
             <option value="2">Making webpages interactive</option>
             <option value="3">Building apps meant for deployment in a Windows environment</option>
             <option value="4">You want to aggregate large pools of data and compare notes with existing databases</option>
-          </select> 
+          </select><br>
         <label for="experience">Do you have previous programming experience?</label>
           <select id="experience">
             <option value="1">None</option>
@@ -53,10 +55,11 @@
             <option value="3">LAMP</option>
             <option value="2">What?!</option>
           </select>      
-          <button type="submit" class="btn btn-info">Calculate my Language! (Scroll for result*)</button>
+          <button type="submit" class="btn btn-info">Calculate my Language! (*Scroll for result*)</button>
       </form>
     </div>
     <div id="output" class="well">
+      <div id="nameDisplay">hjhkh</div>
       <div id="c">
         <p>Based on your selections, you should consider: "C#"</p>
         <img src="img/c.png" alt="C# logo">
